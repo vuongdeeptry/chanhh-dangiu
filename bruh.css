@@ -1,0 +1,201 @@
+* {
+    padding:0;
+    box-sizing:border-box;
+    margin:0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.love {
+    width:350px;
+    height:622px;
+}
+
+.text-white {
+    color:#fff;
+}
+
+.min-size {
+    width:200px;
+}
+
+
+
+#Vuong {
+
+}
+
+
+#header {
+    background:#000;
+    height:46px;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    z-index:1;
+    
+    
+}
+
+#nav {
+    display:inline-block;
+}
+
+#nav > li {
+    display:inline-block;
+}
+
+#nav li {
+    
+    position:relative;
+}
+
+#nav li a {
+    text-decoration:none;
+    padding:0 24px;
+    line-height:46px;
+    display:block;
+}
+
+#nav > li > a {
+    color:#fff;
+}
+
+
+#nav .subnav {
+    display:none;
+    position:absolute;
+    list-style: none;
+    box-shadow:0 0 10px rgba(0,0,0,0.3); 
+}
+
+#nav .subnav li {
+    background:#fff;   
+}
+
+#nav .subnav a:hover,
+#nav > li:hover > a {
+    background:#ccc;
+    color:#000;
+}
+
+#nav .subnav a {
+    color:#000;
+    line-height:38px;
+    padding:0 12px;
+}
+
+
+#nav li:hover .subnav {
+    display:block;
+}
+
+#nav .nav-arrow-down {
+    font-size:13px;
+}
+
+#header .search-btn {
+    float:right;
+    color:#fff;
+    padding:0 23px;
+}
+
+#header .search-icon {
+    line-height:46px;
+}
+
+#header .search-btn:hover {
+    background:#f44336;
+    cursor:pointer;
+}
+
+
+#slider {
+    margin-top:46px;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+}
+
+ .love-text {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    margin-bottom:20px;
+    color:#fff;
+    background:#000;
+}
+
+#content .love-sub-heading,
+#content .love-heading {
+    text-align:center;
+}
+
+#content .loving-you {
+    padding:64px 0;
+    width:800px;
+    margin:auto auto;
+    
+}
+
+#content .about-love {
+    margin-top:20px;
+}
+
+#content .love-heading {
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+#content .love-sub-heading {
+    font-style: italic;
+    opacity:0.5;
+}
+
+#content .love-list {
+    padding: 32px 0;
+    overflow:hidden;
+    display:flex;
+    justify-content:space-between;
+    align-items: baseline;
+}
+
+#content .love-item{
+    float:left;
+    
+}
+
+#content .love-avatar {
+    
+}
+
+.my-heart{
+    background:#000;
+}
+
+#content .chanh-list {
+    margin-top:16px;
+}
+
+#content .chanh-item {
+    color:#fff;
+}
+
+#content .chanh-list {
+    
+}
+
+#content {
+
+}
+
+
+#footer {
+
+}
+
